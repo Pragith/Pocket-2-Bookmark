@@ -62,4 +62,4 @@
 	foreach (json_decode($result)->list as $list) {
 
 
-?>{	"title":"<?= $list->resolved_title ?>","url":"<?= $list->resolved_url ?>" },<?php	}   ?>]
+?>{	"item_id": "<?= $list->item_id ?>","title":"<?= $list->resolved_title ?>","url":"<?= $list->resolved_url ?>" },<?php	}   ?>]
