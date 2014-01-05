@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pocket2Chrome",
+  "description": "Export saved Pocket URLs to a Chrome Bookmark Folder",
+  "version": "1.0",
+
+  "permissions": [
+    "bookmarks"
+  ],
+  "options_page" : "options.html"
+}
